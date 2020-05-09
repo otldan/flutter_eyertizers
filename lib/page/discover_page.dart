@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttereyertizer/page/category_page.dart';
 import 'package:fluttereyertizer/page/follow_page.dart';
+import 'package:fluttereyertizer/page/recommend_page.dart';
 
 const TAB_LABEL = ['关注', '分类', '推荐'];
 
@@ -66,6 +67,7 @@ class _DiscoveryState extends State<DiscoveryPage>
               children: <Widget>[
                 FollowPage(),
                 CategoryPage(),
+                RecommendPage(),
               ],
             ),
           )

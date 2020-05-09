@@ -5,7 +5,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:fluttereyertizer/model/issue_model.dart';
-import 'package:fluttereyertizer/page/video_detail_page_model.dart';
+import 'package:fluttereyertizer/model/video_detail_page_model.dart';
 import 'package:fluttereyertizer/repository/history_repository.dart';
 import 'package:fluttereyertizer/util/navigator_manager.dart';
 import 'package:fluttereyertizer/widget/loading_container.dart';
@@ -97,6 +97,7 @@ class _VideoDetailPageState extends State<VideoDetailPage>
                     tag: '1',
                     child: Chewie(
                       controller: _chewieController,
+
                     ),
                   ),
                   Expanded(
